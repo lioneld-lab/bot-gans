@@ -7,7 +7,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/affisjunianto/botwasapv4
+> git clone https://github.com/ridhoma08/botwhatsappv1.git
 ```
 
 ## Install the dependencies:
