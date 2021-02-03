@@ -33,18 +33,18 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Ridho Admin\n' 
-            + 'ORG: Pengembang RidhoBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=628998839509:+62 899-8839-509\n' 
+            + 'FN:Leoneld Admin\n' 
+            + 'ORG: Pengembang GansBot;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=62895429777090:+62 895-4297-77090\n' 
             + 'END:VCARD' 
-prefix = '#'
+prefix = '!'
 blocked = []   
 limitawal = 30
 memberlimit = 2
 cr = '*BOT INI SUDAH TERVERIFIKASI*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["628998839509@s.whatsapp.net","628998839509@s.whatsapp.net"] 
+const ownerNumber = ["62895429777090@s.whatsapp.net","628954297770909@s.whatsapp.net"] 
 /************************************/
 
        
@@ -240,7 +240,7 @@ function kyun(seconds){
 const client = new WAConnection()
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr already scan.subscribe','white'),color('YOU','red'),color('TUBE','white'),color('ampibi gaming','yellow'))
+   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr already scan.follow','white'),color('INSTA','red'),color('GRAM','white'),color('im.cand_20','yellow'))
 })
 
 client.on('credentials-updated', () => {
